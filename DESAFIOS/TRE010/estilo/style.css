@@ -52,7 +52,7 @@ header > p{
     font-family: var(--fonte-padrão);
     font-size: 1.2em;
     font-weight: bold;
-    min-width: 500px;
+    min-width: 400px;
     padding: 20px;
 
 }
