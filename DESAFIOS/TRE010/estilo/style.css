@@ -82,14 +82,14 @@ nav > a:hover{
 
 main{
     background-color: white;
-    min-width: 450px;
+    min-width: 600px;
     max-width: 1000px;
     margin: auto;
     margin-bottom: 20px;
     padding: 20px;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
-    box-shadow: 0px 0px 10px black;
+    box-shadow: 0px 0px 10px rgb(72, 56, 56);
 }
 
 main h1{
