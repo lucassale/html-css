@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+/*Estilo para impressão*/
+
+*{
+    margin: 10px;
+    padding: 10px;
+}
+
+html{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1em;
+    line-height: 1.5em;
+}
+
+header h1{
+    text-align: justify;
+}
+
+header ul{
+    display: none;
+}
+
+main::after{
+    content:'Este site foi criado pelo github.io/lucassale'
+}
