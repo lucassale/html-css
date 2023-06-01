@@ -13,9 +13,11 @@
 html{
     width: 100vw;
     height: 100vh;
+    
 }
 
 body{
+
     background-color: black;
     background-image: url('../imagens/back-phone.jpg');
     background-repeat: no-repeat;
