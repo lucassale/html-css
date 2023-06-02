@@ -12,7 +12,7 @@
 html, body{
     width: 100vw;
     height: 100vh;
-    background-color: gray;
+    background-color: lightgray;
 }
 
 header h1{
@@ -58,10 +58,6 @@ a:hover{
     transition: 0.3s;
 }
 
-body{
-    background-color: lightgray;
-}
-
 main{
     background-color: white;
     border-radius: 20px;
@@ -69,7 +65,7 @@ main{
     display: block;
     margin: auto;
     margin-top: 10px;
-    width: 70vw;
+    width: 90vw;
 }
 
 main h2{
