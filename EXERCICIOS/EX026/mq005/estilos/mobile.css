@@ -76,3 +76,7 @@ main p{
     text-indent: 30px;
     margin-bottom: 20px;
 }
+
+script{
+    background-color: lightgray;
+}
