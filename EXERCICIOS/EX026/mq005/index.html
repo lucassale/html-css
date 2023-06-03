@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="estilos/mobile.css">
     <link rel="stylesheet" href="estilos/outros.css">
 </head>
-<body>
+<body onresize="siteTamanho()">
     <header>
         <h1>Meu Site</h1>
         <i id="burger" class="material-symbols-outlined" onclick="clickMenu()">menu</i>
@@ -39,6 +39,13 @@
                 itens.style.display = 'none'
             else 
                 itens.style.display = 'block'       
+        }
+
+        function siteTamanho(){
+            if (window.innerWidth >= 768)
+                itens.style.display = 'block'
+            else
+                itens.style.display = 'none'
         }
     </script>   
 </body>
