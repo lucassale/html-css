@@ -29,6 +29,9 @@ body{
     background-color: var(--cor1);
     font-family: var(--fonte-padrao);
 }
+a.externo::after{
+    content: ' \1f517'
+}
 
 main{
     background-color: white;
@@ -95,6 +98,34 @@ h1{
 
 h2{
     font-family: var(--font-androide);
+    color: var(--cor5);
+    background-image: linear-gradient(to right, var(--cor2), transparent);
+    text-indent: 10px;
+}
+
+main p{
+    margin: 15px 0px;
+    text-align: justify;
+    text-indent: 30px;
+    line-height: 2em;
+    font-size: 1.1em;
+}
+
+main strong{
+    color: var(--cor6);
+    font-weight: bolder;
+}
+
+main a{
+    text-decoration: none;
+    color: var(--cor5);
+    background-color: var(--cor2);
+    padding: 2px 6px;
+}
+
+main a:hover{
+    text-decoration: underline;
+    color: var(--cor4);
 }
 
 main img{
@@ -106,15 +137,46 @@ main img{
 .pequeno{
     display: block;
     margin: auto;
-    width: 50%;
+    max-width: 350px;
+}
+
+aside{
+    background-color: var(--cor1);
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.478);
+}
+
+aside h3{
+    background-color: var(--cor6);
+    color: white;
+    margin: -10px;
+    padding: 10px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+aside ul{
+    list-style-type: '\2714\0020\0020';
+    list-style-position: inside;
+    columns: 2;
 }
 
 footer{
     background-color: var(--cor6);
     color: white;
+    font-size: .8em;
+    text-align: center;
+    padding: 6px;
 }
 
 footer a{
     color: white;
     text-decoration: none;
+    font-weight: bold;
+    
+}
+
+footer a:hover{
+    text-decoration: underline;
+
 }
