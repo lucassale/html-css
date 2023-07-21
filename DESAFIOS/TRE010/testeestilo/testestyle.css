@@ -140,6 +140,22 @@ main img{
     max-width: 350px;
 }
 
+.video{
+    position: relative;
+    background-color: var(--cor6);
+    margin: 0px -20px 30px -20px;
+    padding: 20px;
+    padding-bottom: 55%;
+}
+
+.video > iframe{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    height: 88%;
+    width: 86%;
+}
+
 aside{
     background-color: var(--cor1);
     padding: 10px;
